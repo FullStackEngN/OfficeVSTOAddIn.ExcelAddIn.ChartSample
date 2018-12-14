@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Xml.Linq;
-using Excel = Microsoft.Office.Interop.Excel;
-using Office = Microsoft.Office.Core;
-using Microsoft.Office.Tools.Excel;
+﻿/// <summary>
+/// WARNING: ANY USE BY YOU OF THE SAMPLE CODE PROVIDED IN THIS FILE IS AT YOUR OWN RISK. 
+/// Microsoft provides this code "as is" without warranty of any kind, either express or implied, 
+/// including but not limited to the implied warranties of merchantability and/or fitness for a particular purpose.
+/// </summary>
 
 namespace ExcelAddIn.ChartSample
 {
