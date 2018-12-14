@@ -32,7 +32,7 @@ namespace ExcelAddIn.ChartSample
             double height = 200.00;
 
             Chart chart1 = worksheet.Controls.AddChart(left, top, width, height, "test" + DateTime.Now.ToString("yyyyMMddHHmmssfff"));
-            chart1.ChartType = Excel.XlChartType.xl3DPie;
+            chart1.ChartType = Excel.XlChartType.xlColumnClustered;
             chart1.SetSourceData(cells);
 
             chart1.PlotArea.Border.Color = ColorTranslator.ToOle(Color.Green);
@@ -44,7 +44,7 @@ namespace ExcelAddIn.ChartSample
             height = 200.00;
 
             Chart chart2 = worksheet.Controls.AddChart(left, top, width, height, "test" + DateTime.Now.ToString("yyyyMMddHHmmssfff"));
-            chart2.ChartType = Excel.XlChartType.xl3DPie;
+            chart2.ChartType = Excel.XlChartType.xlColumnClustered;
             chart2.SetSourceData(cells);
 
             chart2.PlotArea.Border.Color = ColorTranslator.ToOle(Color.Red);
@@ -107,7 +107,7 @@ namespace ExcelAddIn.ChartSample
                     chartHeight = 200.00;
 
                     Chart leftChart = worksheet.Controls.AddChart(chartLeft, chartTop, chartWidth, chartHeight, "test" + DateTime.Now.ToString("yyyyMMddHHmmssfff"));
-                    leftChart.ChartType = Excel.XlChartType.xl3DPie;
+                    leftChart.ChartType = Excel.XlChartType.xlColumnClustered;
                     leftChart.SetSourceData(cells);
 
                     leftChart.PlotArea.Border.Color = ColorTranslator.ToOle(Color.Green);
@@ -122,7 +122,7 @@ namespace ExcelAddIn.ChartSample
                     chartHeight = 200.00;
 
                     Chart rightChart = worksheet.Controls.AddChart(chartLeft, chartTop, chartWidth, chartHeight, "test" + DateTime.Now.ToString("yyyyMMddHHmmssfff"));
-                    rightChart.ChartType = Excel.XlChartType.xl3DPie;
+                    rightChart.ChartType = Excel.XlChartType.xlColumnClustered;
                     rightChart.SetSourceData(cells);
 
                     rightChart.PlotArea.Border.Color = ColorTranslator.ToOle(Color.Red);
