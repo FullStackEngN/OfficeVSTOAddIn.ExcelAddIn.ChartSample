@@ -49,7 +49,7 @@ namespace ExcelAddIn.ChartSample
 
             chart2.PlotArea.Border.Color = ColorTranslator.ToOle(Color.Red);
 
-            // You must select this PlotArea, otherwise you will see exception
+            // We must select this PlotArea, otherwise we will see exception
             // Exception message: System.Runtime.InteropServices.COMException
             // HResult = 0x80004005
             // Message = Unspecified error(Exception from HRESULT: 0x80004005(E_FAIL))
@@ -58,14 +58,11 @@ namespace ExcelAddIn.ChartSample
             // < Cannot evaluate the exception stack trace >
             chart2.PlotArea.Select();
 
-            // If you don't select PlotArea first
-            // We can get its data
+            // If we don't select PlotArea first
+            // We can get its data first
             // Then set its data again
-            // Won't see exception
+            // Then we won't see exception
             // var tempLeft = chart.PlotArea.Left;
-            //var tempTop = chart.PlotArea.Top;
-            //var tempWidth = chart.PlotArea.Width;
-            //var tempHeight = chart.PlotArea.Height;
 
             chart2.PlotArea.Left = 15.00;
             chart2.PlotArea.Top = 15.00;
@@ -130,7 +127,7 @@ namespace ExcelAddIn.ChartSample
 
                     rightChart.PlotArea.Border.Color = ColorTranslator.ToOle(Color.Red);
 
-                    // You must select this PlotArea, otherwise you will see exception
+                    // We must select this PlotArea, otherwise we will see exception
                     // Exception message: System.Runtime.InteropServices.COMException
                     // HResult = 0x80004005
                     // Message = Unspecified error(Exception from HRESULT: 0x80004005(E_FAIL))
