@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.136
+VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelAddIn.ChartSample", "ExcelAddIn.ChartSample\ExcelAddIn.ChartSample.csproj", "{94740A9B-36C3-4113-BC90-227E0C9E36F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeVSTOAddIn.ExcelAddIn.ChartSample", "OfficeVSTOAddIn.ExcelAddIn.ChartSample\OfficeVSTOAddIn.ExcelAddIn.ChartSample.csproj", "{94740A9B-36C3-4113-BC90-227E0C9E36F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {63C74C93-D824-48E9-8900-EAAE83D66B04}
+		SolutionGuid = {60C207A8-9F02-40C4-9E2B-F1A09E654CE6}
 	EndGlobalSection
 EndGlobal
